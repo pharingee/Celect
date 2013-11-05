@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Celect Voting Platform</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top hidden-xs" role="navigation">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/celect.png" alt="logo" class="img-responsive logo"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="voteNew.html">Vote</a></li>
+          <li><a href="contact.html">Find Us</a></li>
+          <li>
+                <form class="navbar-form" role="search">
+                  <button type="submit" class="btn btn-primary">Sign Up</button>
+                  <button type="submit" class="btn btn-primary">Log In</button>
+                </form>
+              </li>  
+        </ul>
+      </div><!-- /.navbar-collapse -->
+      </div>
+      
+    </nav>
+
+    <div class="jumbotron visible-xs static-image">
+      <div class="container ">
+      <div class="row text-center">
+        <div class="col-xs-12">Celect</div>
+      </div>
+      
+      <div class="row text-center">
+        <div class="col-xs-4">
+          <div class="btn-group dropdown">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Home</button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+              <li role="presentation"><a href="index.html" role="menuitem" tabindex="-1">Home</a></li>
+              <li role="presentation"><a href="voteNew.html" role="menuitem" tabindex="-1">Vote</a></li>
+              <li role="presentation"><a href="contact.html" role="menuitem" tabindex="-1">Find Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-8">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+            <button type="submit" class="btn btn-primary">Log In</button>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        Join us now
+      </div>
+    </div>
+    </div>
+
+     <div id ="slider" class ="carousel slide hidden-xs">
+
+       <ol class="carousel-indicators visible-lg visible-md">
+        <li data-target="#slider" data-slide-to="0" class="active"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+        <li data-target="#slider" data-slide-to="3"></li>
+        <li data-target="#slider" data-slide-to="4"></li>
+      </ol>
+
+      <div id ="sliderinner" class="carousel-inner center">
+        <div class="item active" id="slide1">
+          <div class="container">
+            <div class="row container opaque">
+              <div class="col-sm-4 semi-alert">
+                <h1>Decide with your Friends</h1>
+                <h3>Are you stuck in an endless debate with your friends? <br> 
+                  Take an anonymous vote</h3>
+              </div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4 rounded-box alert-success">
+
+                <form class="form-horizontal" role="form" id="signUp">
+                  <div class="form-group"> 
+                    <div class="col-lg-12">
+                      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="form-group"> 
+                    <div class="col-lg-12">
+                      <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="form-group"> 
+                    <div class="col-lg-12">
+                      <input type="password" class="form-control" id="inputPassword2" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-12">
+                      <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+       <div class="item" id="slide2">
+         <div class="container">
+            <div class="row container opaque">
+              <div class="col-sm-4 semi-alert">
+                <h1>Decide with your Friends</h1>
+                <h3>Are you stuck in an endless debate with your friends? <br>
+                  Nobody is willing to rat out the other? <br>
+                  Take an anonymous vote</h3>
+              </div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4 ">
+              </div>
+            </div>
+          </div>
+
+       </div>
+
+       <div class="item" id="slide3">
+        <div class="container">
+            <div class="row container opaque">
+              <div class="col-sm-4 semi-alert">
+                <h1>Decide with your Friends</h1>
+                <h3>Are you stuck in an endless debate with your friends? <br>
+                  Nobody is willing to rat out the other? <br>
+                  Take an anonymous vote</h3>
+              </div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4 semi-alert">
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="item" id="slide4">
+       <div class="container">
+            <div class="row container opaque">
+              <div class="col-sm-4 semi-alert">
+                <h1>Decide with your Friends</h1>
+                <h3>Are you stuck in an endless debate with your friends? <br>
+                  Nobody is willing to rat out the other? <br>
+                  Take an anonymous vote</h3>
+              </div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4 semi-alert">
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <div class="item" id="slide5">
+        <div class="container">
+            <div class="row container opaque">
+              <div class="col-sm-4 semi-alert">
+                <h1>Decide with your Friends</h1>
+                <h3>Are you stuck in an endless debate with your friends? <br>
+                  Nobody is willing to rat out the other? <br>
+                  Take an anonymous vote</h3>
+              </div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4 semi-alert">
+              </div>
+            </div>
+          </div>
+        <!--   <a class="left carousel-control" href="#slider" data-slide="prev"><i class="icon-arrow-left"></i></a>
+        <a class="right carousel-control" href="#slider" data-slide="next"><i class="icon-arrow-right"></i></a> -->
+      </div>
+    </div>
+  </div>
+
+    <div class="container text-center">
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <i class="icon-flag icon-4x icon-border"></i>
+        </div>
+
+         <div class="col-md-4">
+          <i class="icon-flag icon-4x icon-border"></i>
+        </div>
+
+         <div class="col-md-4">
+          <i class="icon-flag icon-4x icon-border"></i>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+            <h4 class="media-heading">Arguing with friends ?</h4>
+            Celect is the number one voting spot for you. Select a choice anonymously
+        </div>
+
+         <div class="col-md-4">
+            <h4 class="media-heading">Arguing with friends ?</h4>
+            Celect is the number one voting spot for you. Select a choice anonymously
+        </div>
+
+        <div class="col-md-4">
+            <h4 class="media-heading">Arguing with friends ?</h4>
+            Celect is the number one voting spot for you. Select a choice anonymously
+        </div>
+      </div>
+    </div>
+
+    <hr>
+<!--   the footer is right here -->
+<div class="container text-center footer">
+  <nav class="">
+    <ul class="list-unstyled list-inline">
+      <li>
+        <a href="#">Celect</a>
+      </li>
+      <li>
+        <a href="#">+2332 543 400278</a>
+      </li>
+      <li>
+        <a href=".#">@copyright</a>
+      </li>
+      <li>
+        <a href="#">2013</a>
+      </li>
+      <li>
+        <a href="#">All right reserved</a>
+      </li>
+    </ul>
+  </nav>
+
+</div>
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">   
+
+$(document).ready(function(){
+  $('.carousel').carousel({
+   interval:5000
+ })
+
+});
+
+
+
+</script>
+  </body>
+</html>
